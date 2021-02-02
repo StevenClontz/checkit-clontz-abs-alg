@@ -1,0 +1,42 @@
+<exercise>
+  <statement>
+      <ol>
+          <li>
+              <p>
+Explain the requirements for a set <m>G</m> with operation <m>\ast</m> to be a group.
+              </p>
+          </li>
+          <li>
+              <p>
+One of the below Cayley tables does not define a group. Given an example witnessing how
+it satisfies or fails each of the requirements for a group.
+              </p>
+              <me>
+                  <xsl:for-each select="tables/*">
+                      \hspace{1em}
+                      <xsl:value-of select="."/>
+                  </xsl:for-each>
+                  \hspace{1em}
+              </me>
+          </li>
+          <li>
+              <p>
+Explain the requirements for a set <m>F</m> with operations <m>+</m> and <m>\cdot</m> to be a field.
+For each requirement, specify whether it's also a requirement for rings.
+              </p>
+          </li>
+          <li>
+              <p>
+Use results from <url href="https://books.aimath.org/aata/section-mod-n-sym.html">Section 3.1</url> to
+explain why <m>\mathbb Z_{<xsl:value-of select="prime"/>}</m> is a field,
+but <m>\mathbb Z_{<xsl:value-of select="nonprime"/>}</m> is only a ring.
+              </p>
+          </li>
+      </ol>
+  </statement>
+  <answer>
+      <p>
+          N/A
+      </p>
+  </answer>
+</exercise>

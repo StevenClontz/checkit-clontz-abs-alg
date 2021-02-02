@@ -1,0 +1,15 @@
+<exercise>
+  <statement>
+      <p>
+Explain how to find the derivative <m>f'(x)</m>.
+      </p>
+      <me>
+          f(x)=<xsl:value-of select="f"/>
+      </me>
+  </statement>
+  <answer>
+      <me>
+          f'(x)=<xsl:value-of select="df"/>
+      </me>
+  </answer>
+</exercise>

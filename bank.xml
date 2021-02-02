@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank>
+    <title>Abstract Algebra (Clontz)</title>
+    <author>Steven Clontz</author>
+    <url>https://clontz.org</url>
+    <slug>clontz-abs-alg</slug>
+    <outcomes>
+        <outcome>
+            <title>Algebraic properties</title>
+            <slug>A</slug>
+            <description>
+State, justify, and apply basic properties of groups, rings, and fields
+            </description>
+            <alignment>
+            </alignment>
+        </outcome>
+    </outcomes>
+        <outcome>
+            <title>Subgroups</title>
+            <slug>B</slug>
+            <description>
+Verify that a given subset of a group is a subgroup
+            </description>
+            <alignment>
+            </alignment>
+        </outcome>
+</bank>
