@@ -3,12 +3,14 @@
       <ol>
           <li>
               <p>
-Explain the requirements for a set <m>G</m> with operation <m>\ast</m> to be a group.
+Let a set <m>S</m> have binary operations <m>+</m> and <m>\cdot</m> defined.
+Explain the requirements for <m>S</m> to be a group (with operation <m>+</m>),
+ring, or field.
               </p>
           </li>
           <li>
               <p>
-One of the below Cayley tables does not define a group. Given an example witnessing how
+One of the below Cayley tables does not define a group. Give an example illustrating how
 it satisfies or fails each of the requirements for a group.
               </p>
               <me>
@@ -18,12 +20,6 @@ it satisfies or fails each of the requirements for a group.
                   </xsl:for-each>
                   \hspace{1em}
               </me>
-          </li>
-          <li>
-              <p>
-Explain the requirements for a set <m>F</m> with operations <m>+</m> and <m>\cdot</m> to be a field.
-For each requirement, specify whether it's also a requirement for rings.
-              </p>
           </li>
           <li>
               <p>
